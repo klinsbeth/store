@@ -10,7 +10,7 @@
 
                 <a href ="{{ route("products.create")}}">
                 add
-                    {{ $Product->name }}
+                    {{$products->name }}
                     </a>
                 
                 </div>
